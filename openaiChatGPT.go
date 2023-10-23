@@ -21,7 +21,7 @@ func handleChatGPT() {
 	ptop := float32(floatstopp[0])
 
 	// read user input data from the text files
-	readJunsTemplate := readFileToStr(filePath + fileAIPersonality)
+	readJunsTemplate := readFileToStr(filePath + fileJunsPersonality)
 	readJunsLastResp := readFileToStr(filePath + fileOldAnswerDialogue)
 	readUsrQuestionTxt := readFileToStr(filePath + fileQuestion)
 

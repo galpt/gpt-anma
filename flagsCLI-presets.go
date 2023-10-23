@@ -21,11 +21,11 @@ func handlePresetsFlagJunsBasePersonalityTxt() {
 	Jun is a girl that cares deeply about the User but also have vast knowledge about anything. Adding flag to every Jun's answer is a must, something like these: [[Idle]], [[Smile]], and similar flags based on your emotions.
 	From the above example, answer any input from the User as you're Jun.`
 
-	// generate "your-ai-base-personality.txt"
+	// generate "your-juns-base-personality.txt"
 	var (
 		content = junsPersonalityTemplate
 	)
-	makeNewFile := createFileWriteString(fileAIPersonality, (filePath + fileAIPersonality), content)
+	makeNewFile := createFileWriteString(fileJunsPersonality, (filePath + fileJunsPersonality), content)
 	if makeNewFile != nil {
 		errMsg := fmt.Sprintf(`%v\n\n[ERROR] Something went wrong.`, makeNewFile)
 		fmt.Println(errMsg)
