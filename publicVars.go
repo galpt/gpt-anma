@@ -12,12 +12,12 @@ const (
 	Megabyte = 1 << 20
 	Kilobyte = 1 << 10
 
-	appVer = "GPT-ANMA version 2023.5.5.16"
+	appVer = "GPT-ANMA version 2023.10.23.2"
 
 	// file names
 	filePath              = "./GPT-ANMA/"
 	fileAudio             = "question.mp3"
-	fileJunsPersonality   = "your-juns-base-personality.txt"
+	fileAIPersonality     = "your-ai-base-personality.txt"
 	fileQuestion          = "your-question-here.txt"
 	fileOldAnswerDialogue = "your-old-answer-here.txt"
 	fileOldAnswerFlag     = "your-old-answer-flag-here.txt"
