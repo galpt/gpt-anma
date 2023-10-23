@@ -37,7 +37,7 @@ Inside the `GPT-ANMA` directory, find a file named `your-openai-apikey-here.txt`
 
 You might want to explore all the available text files and see what's inside them.
 
-The `your-juns-base-personality.txt` file is used to tell ChatGPT how do you want it to response to your questions.
+The `your-ai-base-personality.txt` file is used to tell ChatGPT how do you want it to response to your questions.
 
 The `your-question-here.txt` file is used to store your questions before sending them to OpenAI's APIs.
 
