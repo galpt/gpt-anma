@@ -8,9 +8,9 @@ Download and install [The Go Programming Language](https://go.dev/).
 Then, simply compile the code with the following commands:
 
 ```
-cd ./GPT-ANMA/
-go mod tidy
-go build
+$ cd ./GPT-ANMA/
+$ go mod tidy
+$ go build
 ```
 
 ## How to use the CLI
